@@ -10,6 +10,14 @@
   </head>
   <body>
     <div id="app"></div>
-    
+    <audio loop="loop" id="audios" preload="auto" style="display:none">
+        <source src="http://music.163.com/song/media/outer/url?id=2149612361.mp3" />
+    </audio>
+    <script>
+      const audiosEle=document.querySelector('#audios')
+      if(audiosEle){
+        audiosEle.paused?audiosEle.play():audiosEle.pause()
+      }
+    </script>
   </body>
 </html>
