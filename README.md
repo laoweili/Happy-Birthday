@@ -1,3 +1,3 @@
 # Happy-Birthday
-生日祝福静态网页
+生日祝福动画实例：
 https://laoweili.github.io/Happy-Birthday/
